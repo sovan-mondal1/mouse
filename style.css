@@ -190,7 +190,13 @@ text-shadow: 0 0 5px #ddd, 0 0 10px #ddd, 0 0 15px #ddd, 0 0 20px #49ff18, 0 0 3
   background: #fff;
 }
 .box_img{
+  
 }
 .box_img img{
   width: 450px;
+  transition: .5s;
+}
+.box_img img:hover{
+  width: 600px;
+  cursor: pointer;
 }
